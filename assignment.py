@@ -1,12 +1,12 @@
-user_name = input("Enter your name :")
+user_name = input("Enter student name :")
 income = float(input("monthly income :"))
-rent = float(input("Amount spend on rent :"))
+mobile = float(input("mobile/internet expenses :"))
 food_expense = float(input("Amount spend on food :"))
 travel_expense = float(input("Amount spend on travel :"))
-entertainment = float(input("entertainment expenses :"))
+study = float(input("study material expenses :"))
 other = float(input("other expenses :"))
 saving_goal = float(input("Enter your saving goal :"))
-total_expenses = rent + food_expense + travel_expense + entertainment + other
+total_expenses = mobile + food_expense + travel_expense + study + other
 remaining_balance = income - total_expenses
 saving_percentage = (remaining_balance * 100) / income
 daily_spending = total_expenses / 30
